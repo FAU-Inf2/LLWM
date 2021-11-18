@@ -1,0 +1,7 @@
+binarysearch: -1.30864197530864183.0(47, 80) -0.96296296296296295.0(15, 16) 
+binarysearch-bogused10: 
+binarysearch-bogused20: 
+binarysearch-bogused30: 
+binarysearch-O1-optimized: 
+binarysearch-flattened: 
+binarysearch-substituted: -0.96296296296296295.0(15, 16) -1.30864197530864183.0(47, 80) 

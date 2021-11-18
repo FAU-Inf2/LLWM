@@ -1,0 +1,11 @@
+The folders hasmark and xmark contain all the code to insert Xmark and Hashmark watermarks into arbitrary .ll or .c files
+they are structured as follows:
+1. The Transforms folders contain the necessary llvm transformation passes for the insertion, they need to be inserted into the LLVMSOURCE/llvm/lib/Transforms folder of a valid llvm-9 version, to built the necessary shared objects, simply run make in the LLVMSOURCE/built directory
+2. The insertedProgs folders is initially empty and will be filled with inserted versions of the programs during the run of the insertion scrips
+3. The Tools folder contains scripts, that were useful during the evaluation and for debugging. They are not needed for the insertion and recovery process but may be useful for other purposes
+4. The TraceFun folder contains instrumentation functions, that are necessary for the insertion and recovery process
+The insertion and recovery processes can be invoked by executing the respective shell scripts
+There are some issues with hard coded paths so that might cause some bugs and need some adjusting
+
+The sources folder contains some of the programs from the coreutils and taclebench, they can be used for testing 
+the obfuscator-llvm folder contains an adjusted version of ollvm. If ollvm needs to be use, add this folder to the LLVMSOURCE/llvm/lib/Transforms directory and remove the commented line form the CMAKE_LISTS.txt folder

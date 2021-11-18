@@ -1,0 +1,100 @@
+-rwxrwxr-x 1 papus papus 491K Jan  3 22:13 cp_orig_clang
+-rwxrwxr-x 1 papus papus 598K Jan  3 22:13 cp_orig_gcc
+-rwxrwxr-x 1 papus papus 581K Jan  3 22:14 cp_clang
+-rwxrwxr-x 1 papus papus 585K Jan  4 23:34 cp_wm8
+-rwxrwxr-x 1 papus papus 686K Jan  3 22:13 cp_wm128
+-rwxrwxr-x 1 papus papus 690K Jan  3 22:13 cp_wm256
+-rwxrwxr-x 1 papus papus 698K Jan  3 22:13 cp_wm512
+-rwxrwxr-x 1 papus papus 718K Jan  3 22:13 cp_wm1024
+-rwxrwxr-x 1 papus papus 754K Jan  3 22:13 cp_wm2048
+-rwxrwxr-x 1 papus papus 733K Jan  5 00:48 cp_wm4096
+-rwxrwxr-x 1 papus papus 881K Jan  5 01:07 cp_wm8192
+
+-rwxrwxr-x 1 papus papus 352K Jan  3 22:13 dd_orig_clang
+-rwxrwxr-x 1 papus papus 390K Jan  3 22:13 dd_orig_gcc
+-rwxrwxr-x 1 papus papus 323K Jan  3 22:14 dd_clang
+-rwxrwxr-x 1 papus papus 327K Jan  4 23:34 dd_wm8
+-rwxrwxr-x 1 papus papus 331K Jan  3 22:13 dd_wm128
+-rwxrwxr-x 1 papus papus 339K Jan  3 22:13 dd_wm256
+-rwxrwxr-x 1 papus papus 347K Jan  3 22:13 dd_wm512
+-rwxrwxr-x 1 papus papus 367K Jan  3 22:13 dd_wm1024
+-rwxrwxr-x 1 papus papus 403K Jan  3 22:13 dd_wm2048
+-rwxrwxr-x 1 papus papus 475K Jan  5 00:48 dd_wm4096
+-rwxrwxr-x 1 papus papus 623K Jan  5 01:07 dd_wm8192
+
+-rwxrwxr-x 1 papus papus 916K Jan  3 22:13 du_orig_clang
+-rwxr-xr-x 1 papus papus 940K Jan  3 22:13 du_orig_gcc
+-rwxrwxr-x 1 papus papus 911K Jan  3 22:14 du_clang
+-rwxrwxr-x 1 papus papus 911K Jan  4 23:34 du_wm8
+-rwxrwxr-x 1 papus papus 915K Jan  3 22:13 du_wm128
+-rwxrwxr-x 1 papus papus 919K Jan  3 22:13 du_wm256
+-rwxrwxr-x 1 papus papus 931K Jan  3 22:13 du_wm512
+-rwxrwxr-x 1 papus papus 947K Jan  3 22:13 du_wm1024
+-rwxrwxr-x 1 papus papus 983K Jan  3 22:13 du_wm2048
+-rwxrwxr-x 1 papus papus 1,1M Jan  5 00:48 du_wm4096
+-rwxrwxr-x 1 papus papus 1,2M Jan  5 01:08 du_wm8192
+
+-rwxrwxr-x 1 papus papus 623K Jan  3 22:13 ls_orig_clang
+-rwxrwxr-x 1 papus papus 738K Jan  3 22:13 ls_orig_gcc
+-rwxrwxr-x 1 papus papus 528K Jan  3 22:14 ls_clang
+-rwxrwxr-x 1 papus papus 536K Jan  4 23:31 ls_wm8
+-rwxrwxr-x 1 papus papus 540K Jan  3 22:13 ls_wm128
+-rwxrwxr-x 1 papus papus 544K Jan  3 22:13 ls_wm256
+-rwxrwxr-x 1 papus papus 552K Jan  3 22:13 ls_wm512
+-rwxrwxr-x 1 papus papus 572K Jan  3 22:13 ls_wm1024
+-rwxrwxr-x 1 papus papus 608K Jan  3 22:13 ls_wm2048
+-rwxrwxr-x 1 papus papus 684K Jan  5 00:48 ls_wm4096
+-rwxrwxr-x 1 papus papus 832K Jan  5 01:08 ls_wm8192
+
+
+
+
+
+
+-rwxrwxr-x 1 papus papus  502104 Jan  3 22:13 cp_orig_clang
+-rwxrwxr-x 1 papus papus  611592 Jan  3 22:13 cp_orig_gcc
+-rwxrwxr-x 1 papus papus  594064 Jan  3 22:14 cp_clang
+-rwxrwxr-x 1 papus papus  598232 Jan  4 23:34 cp_wm8
+-rwxrwxr-x 1 papus papus  701664 Jan  3 22:13 cp_wm128
+-rwxrwxr-x 1 papus papus  705760 Jan  3 22:13 cp_wm256
+-rwxrwxr-x 1 papus papus  713952 Jan  3 22:13 cp_wm512
+-rwxrwxr-x 1 papus papus  734432 Jan  3 22:13 cp_wm1024
+-rwxrwxr-x 1 papus papus  771296 Jan  3 22:13 cp_wm2048
+-rwxrwxr-x 1 papus papus  749784 Jan  5 00:48 cp_wm4096
+-rwxrwxr-x 1 papus papus  901336 Jan  5 01:07 cp_wm8192
+
+-rwxrwxr-x 1 papus papus  359896 Jan  3 22:13 dd_orig_clang
+-rwxrwxr-x 1 papus papus  398360 Jan  3 22:13 dd_orig_gcc
+-rwxrwxr-x 1 papus papus  330184 Jan  3 22:14 dd_clang
+-rwxrwxr-x 1 papus papus  334352 Jan  4 23:34 dd_wm8
+-rwxrwxr-x 1 papus papus  338360 Jan  3 22:13 dd_wm128
+-rwxrwxr-x 1 papus papus  346552 Jan  3 22:13 dd_wm256
+-rwxrwxr-x 1 papus papus  354744 Jan  3 22:13 dd_wm512
+-rwxrwxr-x 1 papus papus  375224 Jan  3 22:13 dd_wm1024
+-rwxrwxr-x 1 papus papus  412088 Jan  3 22:13 dd_wm2048
+-rwxrwxr-x 1 papus papus  485904 Jan  5 00:48 dd_wm4096
+-rwxrwxr-x 1 papus papus  637456 Jan  5 01:07 dd_wm8192
+
+-rwxrwxr-x 1 papus papus  937768 Jan  3 22:13 du_orig_clang
+-rwxr-xr-x 1 papus papus  961984 Jan  3 22:13 du_orig_gcc
+-rwxrwxr-x 1 papus papus  932488 Jan  3 22:14 du_clang
+-rwxrwxr-x 1 papus papus  932560 Jan  4 23:34 du_wm8
+-rwxrwxr-x 1 papus papus  936568 Jan  3 22:13 du_wm128
+-rwxrwxr-x 1 papus papus  940664 Jan  3 22:13 du_wm256
+-rwxrwxr-x 1 papus papus  952952 Jan  3 22:13 du_wm512
+-rwxrwxr-x 1 papus papus  969336 Jan  3 22:13 du_wm1024
+-rwxrwxr-x 1 papus papus 1006200 Jan  3 22:13 du_wm2048
+-rwxrwxr-x 1 papus papus 1084112 Jan  5 00:48 du_wm4096
+-rwxrwxr-x 1 papus papus 1235664 Jan  5 01:08 du_wm8192
+
+-rwxrwxr-x 1 papus papus  637352 Jan  3 22:13 ls_orig_clang
+-rwxrwxr-x 1 papus papus  755656 Jan  3 22:13 ls_orig_gcc
+-rwxrwxr-x 1 papus papus  540200 Jan  3 22:14 ls_clang
+-rwxrwxr-x 1 papus papus  548472 Jan  4 23:31 ls_wm8
+-rwxrwxr-x 1 papus papus  552600 Jan  3 22:13 ls_wm128
+-rwxrwxr-x 1 papus papus  556696 Jan  3 22:13 ls_wm256
+-rwxrwxr-x 1 papus papus  564888 Jan  3 22:13 ls_wm512
+-rwxrwxr-x 1 papus papus  585368 Jan  3 22:13 ls_wm1024
+-rwxrwxr-x 1 papus papus  622232 Jan  3 22:13 ls_wm2048
+-rwxrwxr-x 1 papus papus  700024 Jan  5 00:48 ls_wm4096
+-rwxrwxr-x 1 papus papus  851576 Jan  5 01:08 ls_wm8192

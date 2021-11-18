@@ -1,0 +1,9 @@
+mean of dummyinput
+ 0.075 380 3780078888
+stderr of dummyinput
+ 0.018 499 39000681959
+Overall mean: 0.0753803780078888Overall stddev: 0.01849939000681959mean of inserted dummyinput
+ 0.085 408 46228599548
+stderr of inserted dummyinput
+ 0.003 870 330557215523
+Overall mean(inserted): 0.08540846228599548Overall stddev(inserted): 0.003870330557215523

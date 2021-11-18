@@ -1,0 +1,849 @@
+
+Run test: tests/du/2g.sh
+
+  GEN      public-submodule-commit
+Making check in .
+2g.sh: skipped test: very expensive: disabled by default
+SKIP: tests/du/2g.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/8gb.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/8gb.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/basic.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/basic.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/bigtime.sh
+
+  GEN      public-submodule-commit
+Making check in .
+bigtime.sh: skipped test: file system or localtime mishandles big timestamps: -rw-r--r-- 1 root root 0 May 10  2446 future
+SKIP: tests/du/bigtime.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/bind-mount-dir-cycle.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/bind-mount-dir-cycle.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/bind-mount-dir-cycle-v2.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/bind-mount-dir-cycle-v2.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/deref-args.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/deref-args.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/deref.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/deref.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/exclude.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/exclude.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/fd-leak.sh
+
+  GEN      public-submodule-commit
+Making check in .
+fd-leak.sh: skipped test: expensive: disabled by default
+SKIP: tests/du/fd-leak.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/files0-from-dir.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/files0-from-dir.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/hard-link.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/hard-link.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/inacc-dest.sh
+
+  GEN      public-submodule-commit
+Making check in .
+inacc-dest.sh: skipped test: must be run as non-root
+SKIP: tests/du/inacc-dest.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/inacc-dir.sh
+
+  GEN      public-submodule-commit
+Making check in .
+inacc-dir.sh: skipped test: must be run as non-root
+SKIP: tests/du/inacc-dir.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/inaccessible-cwd.sh
+
+  GEN      public-submodule-commit
+Making check in .
+inaccessible-cwd.sh: skipped test: must be run as non-root
+SKIP: tests/du/inaccessible-cwd.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/inodes.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/inodes.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/long-from-unreadable.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/long-from-unreadable.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/long-sloop.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/long-sloop.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/max-depth.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/max-depth.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/move-dir-while-traversing.sh
+
+  GEN      public-submodule-commit
+Making check in .
+move-dir-while-traversing.sh: skipped test: python inotify package not installed
+SKIP: tests/du/move-dir-while-traversing.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/no-deref.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/no-deref.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/no-x.sh
+
+  GEN      public-submodule-commit
+Making check in .
+no-x.sh: skipped test: must be run as non-root
+SKIP: tests/du/no-x.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/one-file-system.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/one-file-system.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/restore-wd.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/restore-wd.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/slash.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/slash.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/threshold.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/threshold.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/trailing-slash.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/trailing-slash.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/du/two-args.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/du/two-args.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b-dirty
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+

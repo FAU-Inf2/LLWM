@@ -1,0 +1,585 @@
+
+Run test: tests/dd/ascii.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/ascii.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/bytes.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/bytes.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/direct.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/direct.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/misc.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/misc.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/no-allocate.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/no-allocate.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/nocache_eof.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/nocache_eof.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/nocache.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/nocache.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/not-rewound.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/not-rewound.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/reblock.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/reblock.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/skip-seek2.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/skip-seek2.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+1,109d0
+< [
+< arch
+< b2sum
+< base32
+< base64
+< basename
+< basenc
+< cat
+< chcon
+< chgrp
+< chmod
+< chown
+< chroot
+< cksum
+< comm
+< coreutils
+< cp
+< csplit
+< cut
+< date
+< dd
+< df
+< dir
+< dircolors
+< dirname
+< du
+< echo
+< env
+< expand
+< expr
+< factor
+< false
+< fmt
+< fold
+< groups
+< head
+< hostid
+< hostname
+< id
+< install
+< join
+< kill
+< link
+< ln
+< logname
+< ls
+< md5sum
+< mkdir
+< mkfifo
+< mknod
+< mktemp
+< mv
+< nice
+< nl
+< nohup
+< nproc
+< numfmt
+< od
+< paste
+< pathchk
+< pinky
+< pr
+< printenv
+< printf
+< ptx
+< pwd
+< readlink
+< realpath
+< rm
+< rmdir
+< runcon
+< seq
+< sha1sum
+< sha224sum
+< sha256sum
+< sha384sum
+< sha512sum
+< shred
+< shuf
+< sleep
+< sort
+< split
+< stat
+< stdbuf
+< stty
+< sum
+< sync
+< tac
+< tail
+< tee
+< test
+< timeout
+< touch
+< tr
+< true
+< truncate
+< tsort
+< tty
+< uname
+< unexpand
+< uniq
+< unlink
+< uptime
+< users
+< vdir
+< wc
+< who
+< whoami
+< yes
+make[3]: *** [Makefile:17467: check-README] Error 1
+make[2]: *** [Makefile:13341: check-am] Error 2
+make[1]: *** [Makefile:12863: check-recursive] Error 1
+make: *** [Makefile:13343: check] Error 2
+
+
+
+Run test: tests/dd/skip-seek-past-dev.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/skip-seek-past-dev.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/skip-seek-past-file.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/skip-seek-past-file.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/sparse.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/sparse.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/stats.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/stats.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/stderr.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/stderr.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+
+Run test: tests/dd/unblock-sync.sh
+
+  GEN      public-submodule-commit
+Making check in .
+PASS: tests/dd/unblock-sync.sh
+============================================================================
+Testsuite summary for GNU coreutils 8.32.87-e361b
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  GEN      check-README
+  GEN      check-duplicate-no-install
+  GEN      sc-avoid-builtin
+  GEN      sc-avoid-io
+  GEN      sc-avoid-non-zero
+  GEN      sc-avoid-path
+  GEN      sc-avoid-timezone
+  GEN      sc-avoid-zeroes
+  GEN      sc-exponent-grouping
+  GEN      sc-lower-case-var
+  GEN      check-texinfo
+
+
+

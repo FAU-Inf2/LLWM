@@ -1,0 +1,107 @@
+.DEFAULT_GOAL := overwrite_all
+.PHONY: overwrite_all pre_opt post_opt pre_compile post_compile all_clean
+
+WATERMARKING_DIR = ../../apps/branch-based
+WATERMARKING_BIN_DIR = bin
+WATERMARKING_LIB = branch-based.so
+WATERMARKING_LIB_PATH = $(WATERMARKING_DIR)/$(WATERMARKING_BIN_DIR)/$(WATERMARKING_LIB)
+WATERMARKING_COMMAND = -branch-watermark
+CONFIG_FILE = branch_watermark_config.cfg
+EXTRA_WATERMARK_OBJS =
+EXTRA_WATERMARK_LIBS =
+EXTRA_WATERMARK_LDFLAGS =
+
+LLVM_LINK = llvm-link-9
+BYTECODEEXT = bc
+linked_bytecode = __linked_bytecode.$(BYTECODEEXT)
+ifdef OPTLINKED
+	OPT_OBJECTS = $(linked_bytecode)
+else
+	OPT_OBJECTS = $(overwrite_am_gzip_OBJECTS)
+endif
+
+# set LINK to override so the order is correct
+override LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(EXTRA_WATERMARK_LDFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
+
+all_clean :
+	rm -f *.bc
+	make clean
+
+#double dip to prevent building the wrong objfiles later
+overwrite_all :
+	$(eval overwrite_am_gzip_OBJECTS = $(patsubst %.$(OBJEXT), %.$(BYTECODEEXT), $(gzip_OBJECTS)))
+	$(eval overwrite_gzip_OBJECTS = $(addprefix opt_, $(OPT_OBJECTS)) $(EXTRA_WATERMARK_OBJS))
+	$(eval overwrite_gzip_LDADD = $(gzip_LDADD) $(EXTRA_WATERMARK_LIBS))
+	make pre_compile
+	make all
+	make all gzip_OBJECTS='$(overwrite_gzip_OBJECTS)' am_gzip_OBJECTS='$(overwrite_am_gzip_OBJECTS)' gzip_LDADD='$(overwrite_gzip_LDADD)'
+	make post_compile
+
+%.bc: %.c
+	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+	$(COMPILE) -emit-llvm -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
+#	$(AM_V_CC)source='$<' object='$@' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(AM_V_CC_no)$(COMPILE) -c -o $@ $<
+
+
+$(linked_bytecode) : $(am_gzip_OBJECTS)
+	$(LLVM_LINK) $< -o $@
+
+
+opt_%.$(BYTECODEEXT) : %.$(BYTECODEEXT) $(CONFIG_FILE)
+	make pre_opt
+	opt-9 --load=$(WATERMARKING_LIB_PATH) $(WATERMARKING_COMMAND) < $< > $@
+	make post_opt
+
+
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+# Change the lines below at your discretion depending what the watermarking algorith needs
+pre_opt :
+
+
+post_opt :
+
+
+
+WATERMARKING_OBJ_DIR = obj
+WATERMARKING_SRC_EXTRA = src/extras
+WATERMARKING_HASHFUNC_NAME = hash_func
+WATERMARKING_FINGERPRINT_NAME = fingerprint_integer
+SHARED_LIB_EXT = so
+FINGERPRINT_SHARED_LIB = libfingerprint.$(SHARED_LIB_EXT)
+
+EXTRA_WATERMARK_OBJS = $(WATERMARKING_DIR)/$(WATERMARKING_OBJ_DIR)/$(WATERMARKING_HASHFUNC_NAME).o
+EXTRA_WATERMARK_LIBS =
+EXTRA_WATERMARK_LDFLAGS = -L./ -lfingerprint -Wl,-rpath='$$ORIGIN'
+
+pre_compile :
+	-cp $(WATERMARKING_HASHFUNC_NAME).h $(WATERMARKING_DIR)/$(WATERMARKING_SRC_EXTRA)/
+	-cp $(WATERMARKING_FINGERPRINT_NAME).h $(WATERMARKING_DIR)/$(WATERMARKING_SRC_EXTRA)/
+	make -C $(WATERMARKING_DIR)
+	cp $(WATERMARKING_DIR)/$(WATERMARKING_BIN_DIR)/$(FINGERPRINT_SHARED_LIB) ./
+
+post_compile :
+
+
+# Specific for this watermarking algorithm:
+.PHONY: default_config
+DEF_CONFIG_MAKER = def_config
+DEF_CONFIG_PATH = $(WATERMARKING_DIR)/$(WATERMARKING_BIN_DIR)/$(DEF_CONFIG_MAKER)
+$(CONFIG_FILE) :
+	make default_config
+
+default_config :
+	@rm -f $(CONFIG_FILE)
+	make -C $(WATERMARKING_DIR)
+	$(DEF_CONFIG_PATH) $(CONFIG_FILE)

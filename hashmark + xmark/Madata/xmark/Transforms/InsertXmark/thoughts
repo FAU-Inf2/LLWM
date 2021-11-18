@@ -1,0 +1,8 @@
+füge integritätscheck über checksumme vor jedem loop und control function hinzu
+
+xor den bums an die bisherige checksumme ran -> 2 mögliche zustände pro checksummen check entweder gerade teil oder nicht je nachdem ob block gerade ausgeführt oder nicht
+
+prüfe ob checksummen für alle insertion points gleich sind
+
+
+

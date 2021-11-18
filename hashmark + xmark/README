@@ -1,0 +1,5 @@
+This folder contains all files that were created for the implementation of the xmark and hashmark
+Software Watermarking Algorithms.
+Most of the scripts will require to change some paths to work on different folder structures and
+all Transformations from the respective Transforms folders need an installation of llvm-9 to work and to be inserted in the llvm/lib/Transforms folder
+W.I.P.

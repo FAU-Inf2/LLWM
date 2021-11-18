@@ -1,0 +1,51 @@
+# all build folders
+*build*/
+
+# compiled llvm bitcode
+*.ll
+*.bc
+
+# compiled object files
+*.slo
+*.lo
+*.o
+
+# compiled dynamic libraries
+*.so
+*.dylib
+
+# compiled static libraries
+*.lai
+*.la
+*.a
+
+# Core latex/pdflatex auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.lol
+
+# latex Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# latex Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# latex build dependencies
+/thesis/**/dependencies.mk
