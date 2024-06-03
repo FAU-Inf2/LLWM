@@ -1,0 +1,6 @@
+*.ll
+*.o
+*.out
+*.gdb
+gdb.sh
+fred.txt
