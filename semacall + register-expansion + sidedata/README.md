@@ -5,23 +5,23 @@ Additionally, they can be built by cloning and compiling LLVM (see "Structure & 
 LLVM 17.
 
 ## Register Expansion
-The first Watermark (Register Expansion Watermark) works by expanding every 
-4-byte integer variable to an 8-byte variable.
+The first Watermark (Register Expansion Watermark) works by expanding suitable 
+4-byte integer variables to 8-byte variables.
 The additional 4-bytes can be used to store the watermark. 
-We compute the watermark with already present computations or by 
-additional ones modifying the upper bytes, s.t. the watermark is dependent on the parameters of the functions it is inserted in. 
-The correct input in the parameters will yield the watermark in the upper bits.
+We compute the watermark with already present computations (where a watermark present in one of the operands can be inherited) or by 
+introduction additional instructions that modifying the upper bytes, s.t. the watermark is dependent on the parameters of the functions it is inserted in. 
+The correct secret input in the parameters will then yield the correct watermark in the upper bits.
 
 ## SemaCall
-The SemaCall Watermark, formally known as the Patching-LibC-Watermark is the second one.
+The SemaCall Watermark is the second one.
 Calls to selected functions from libc are adjusted with custom implementations that include the watermark dynamically from datetime, user-input or whatever dynamic information source is available for that function. 
-From the data, first a hash value is generated that is checked for a custom watermark key. If the key is provided,
-the hash should match and the additional code should calculate the watermark value from the key and print it.
+At first a hash value is generated from dynamic function-specific data that is checked for a custom watermark key. If the key is provided,
+the hash should match and an easter-egg is triggered, which calculates the watermark value from the key and prints it.
 Currently supported functions: atoi, atol, strtol, fgets, gets, getline, time, gettimeofday
 
 ## Sidedata
 Stack allocated arrays are assumed to hold the key. They are duplicated and the key to value transformation
-done with polynom generation. Again an easter block is generated and triggered, if the key is present.
+is run with a polynomial transformation. Again an easter block is generated and triggered, if the key is present.
 It then prints the generated watermark value on standrd out.
 
 ## Structure & Building
